@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  list-style: none;
+  transition: 0.3s;
+}
+body{
+  background: linear-gradient(to right,#34495e, #798485);
+}
+
+
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: linear-gradient(to right,#34495e, #798485);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.main_container .navbar .logo img{
+  display:flex;
+  width: 50px;
+  height: 60px;
+  margin-left: 30px; 
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+
+.main_container .navbar .anchors {
+  width: 73%;
+  text-align: right;
+}
+
+.main_container .navbar .anchors a {
+  font-size: 20px;
+  color:#ecf0f1;
+  margin: 0 2rem;
+}
+
+.main_container .navbar .anchors a:hover{
+    border-bottom: 2px solid#ecf0f1;
+    /* border-radius: 5px; */
+
+}
+
+.main_container .navbar .anchors .btn {
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 18px;
+  margin: 5px;
+  margin-left: 30px;
+  color:#ecf0f1;
+  background: none;
+  border: 1px solid #ecf0f1;
+
+}
+.main_container .navbar .anchors .btn:hover{
+  background: linear-gradient(to right,#34495e, #798485);
+  color:#e4e2e2;
+}
+
+.home_section{
+margin-top: 40px;
+display: table;
+}
+
+.home_section .col1{
+  width: 40%;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 100px;
+
+}
+
+.home_section .col1 h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  color: rgb(197, 8, 197);
+  font-weight: bolder;
+}
+
+.home_section .col1 h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  line-height: 40px;
+  color:#ecf0f1;
+}
+
+.home_section .col1 p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 30px;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 20px;
+  color:#ecf0f1;
+}
+.home_section .col1 .btn{
+  margin-top: 40px;
+  width: 170px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 15px;
+  background: linear-gradient(to right, yellow , rgb(239, 166, 8));
+  color: black;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.home_section .col1 .btn:hover{
+  color: #666;
+  background: linear-gradient(to right, rgb(239, 166, 8) , yellow );
+}
+.home_section .col2{
+  width: 49%;
+  display: table-cell;
+  text-align: center;
+}
+
+.home_section .col2 img{
+  margin-left: 320px;
+  margin-top: 100px;
+  width: 500px;
+  height: 450px;
+}
+
